@@ -1,0 +1,58 @@
+/* general formatting standard for the page*/
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  /* header formatting*/
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: blue;
+    color: white;
+    text-align: center;
+    height: 15vh;
+    }
+
+       .header h1{
+        font-size: 4em;
+        line-height: 1.25em;
+        flex: 1 1 60vw;
+        text-align: left;
+    }
+
+    .header img{
+        flex: 1 1;
+        } 
+
+    .header a{
+        max-width: 10vw;
+        flex: 1 1 15vw;
+        background: lightblue;
+        
+    }
+  
+    .content-row {
+        display: flex;
+    }
+
+    .content-row h2{
+        font-size: 2.5em;
+        background: lightgoldenrodyellow;
+        color: aquamarine;
+        text-align: right;
+        border-right: 10px solid aquamarine;
+        padding-right: 10px;
+        flex-basis: 200px;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;                              
+        align-items: center;
+
+    }
+
+
