@@ -33,7 +33,19 @@ body {
         background: lightblue;
         
     }
-  
+  .break{
+      background: darkgreen;
+      width: 100vw;
+      height: 200px;
+      font-size: 2em;
+      display: flex;
+  }
+  .break h3{
+    align-self: flex-end;
+    justify-self: right;
+  }
+
+/* main page formatting */
     .content-row {
         display: flex;
     }
