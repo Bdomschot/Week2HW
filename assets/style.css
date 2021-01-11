@@ -48,6 +48,7 @@ body {
 /* main page formatting */
     .content-row {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .content-row h2{
@@ -58,13 +59,21 @@ body {
         border-right: 10px solid aquamarine;
         padding-right: 10px;
         flex-basis: 200px;
+        flex: 30vw;
     }
-
+    .content-row p{
+        flex: 70vw;
+    }
     .projects{
-        display: flex;
+        flex: 70vw;
         flex-wrap: wrap;                              
         align-items: center;
-
     }
-
+    
+    .projects a{
+        flex: 50vw;    
+    }
+    .contactInfo{
+        flex: 70vw;
+    }
 
