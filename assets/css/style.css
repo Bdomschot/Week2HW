@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --darkblue: #445877;
+    --lightblue: #92CCCE;
+    --gray: #31343D;
+    --black: #1C1D21;
+    --white:  #eeeef7;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--black);
+}
+header {
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--gray);
+}
+header h1 {
+    padding: .25em;
+    font-size: 3em;
+    display: inline-block;
+    color: var(--gray);;
+    background: var(--lightblue);  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    flex-wrap: wrap;
+    display: inline-block;
+    font-size: 1em;
+    color: var(--lightblue);
+    padding: 1em;
+    margin-right: 2em;
+    text-decoration: underline;
+}
+.break {
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/stripes.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.break h3 {
+    color: var(--gray);
+    background: var(--lightblue);
+    padding: .25em;
+    font-size: 1.5em;
+    float: right;
+    margin: .5em;
+    position: absolute;
+    bottom: .25em;
+    right: 3em; 
+}
+.content-row{
+    display: flex;
+    flex-wrap: wrap;   
+}
+h2 {
+    color: var(--darkblue);
+    margin-right: 20px;
+    padding-right: 3px;
+    border-right: 5px solid;
+    font-size: 3em;
+    width: 25%;
+    text-align: right;
+}
+p {
+    padding: 1em; 
+    font-size: larger;
+    width: 50%;
+} 
+.projects{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 70%;
+}
+.projects a{
+    padding: 4em;
+    margin: .8em; 
+    width: 39%;
+    height: 15em;
+    background-image: url("../img/surf.jpg");
+    background-size: cover;
+    background-position: center ;
+    border: .5em;
+    border-style: solid;
+    border-color: var(--lightblue);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.projects :first-child{
+    padding: 8em; 
+    width: 80%;
+    border: .5em;
+    border-style: solid;
+    border-color: var(--lightblue);
+    position: relative;
+    margin-top: 30px;
+}
+.projects h3 {
+    color: var(--gray);
+    background: var(--lightblue);
+    padding: .25em !important;
+    font-size: 1.5em ;
+    float: left;
+    margin: .5em;
+    position: absolute !important;
+    bottom: .25em;
+    left: 3em; 
+    width: auto !important;
+}
+.contactInfo {
+    color: var(--darkblue);
+    margin-right: 20px; 
+    padding-right: 3px; 
+    font-size: 3em;
+    width: auto;
+    display: flex; 
+    margin-top: 30px;
+}
+.contactInfo a {
+    flex-wrap: wrap;
+    display: inline-block;
+    font-size: .5em;
+    color: var(--gray);
+    padding: 1em;
+    margin-right: 2em;
+    text-decoration: underline;
+}
