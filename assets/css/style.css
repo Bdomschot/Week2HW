@@ -91,7 +91,6 @@ p {
     margin: .8em; 
     width: 39%;
     height: 15em;
-    background-image: url("../img/surf.jpg");
     background-size: cover;
     background-position: center ;
     border: .5em;
@@ -139,4 +138,24 @@ p {
     padding: 1em;
     margin-right: 2em;
     text-decoration: underline;
+}
+
+#pub{
+    background-image: url("../img/PubLish.png");
+}
+
+#food{
+    background-image: url("../img/Food.png");
+}
+
+#inspect{
+    background-image: url("../img/inspect.png");
+}
+
+#pass{
+    background-image: url("../img/password.png");
+}
+
+#note{
+    background-image: url("../img/note.png");
 }
